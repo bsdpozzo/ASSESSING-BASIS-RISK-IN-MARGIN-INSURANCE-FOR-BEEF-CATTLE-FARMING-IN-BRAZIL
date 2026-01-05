@@ -14,7 +14,7 @@ This repository aims to ensure transparency and reproducibility of the analyses 
 
 - `data/`  
   Contains the datasets used in the analysis:
-  - `dados_precos_fisicos_cepea.xlsx`: Spot market price data from CEPEA, used to represent physical cattle and corn prices, futures price data for live cattle and corn obtained from the Brazilian stock exchange (B3), collected via Investing.com, and Federal-level feeder cattle price data obtained from Agrolink.
+  - `data_prices.xlsx`: Spot market price data from CEPEA, used to represent physical cattle and corn prices, futures price data for live cattle and corn obtained from the Brazilian stock exchange (B3), collected via Investing.com, and Federal-level feeder cattle price data obtained from Agrolink.
   - `IGP-DI.xlsx`: IGP-DI price index used to deflate all nominal price series.
 
 - `scripts/`  
