@@ -38,10 +38,10 @@ The price series used in this study originate from the following sources:
 - The methodological framework follows the international literature on basis risk and margin insurance, adapted to the Brazilian beef cattle sector.
 
 ## Reproducibility
-To reproduce the results, run the scripts according to the analysis of interest:
+To reproduce the results, run the scripts:
 
-1. `risco_base_1.R` — federal-level price-based simulations  
-2. `risco_base_2.R` — state-level price-based simulations  
+- `basis_risk.R` — federal-level price-based simulations  
+  
 
 Ensure that all required R packages are installed and that the data files are correctly placed in the `data/` directory.
 
