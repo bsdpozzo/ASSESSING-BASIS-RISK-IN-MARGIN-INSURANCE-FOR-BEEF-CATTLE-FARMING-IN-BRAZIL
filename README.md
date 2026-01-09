@@ -40,7 +40,7 @@ The price series used in this study originate from the following sources:
 ## Reproducibility
 To reproduce the results, run the scripts:
 
-- `basis_risk.R` — federal-level price-based simulations  
+- `basis_risk.R` — federal-level and state-level price-based simulations  
   
 
 Ensure that all required R packages are installed and that the data files are correctly placed in the `data/` directory.
