@@ -1,6 +1,6 @@
 # Assessing Basis Risk in Margin Insurance for Beef Cattle Farming in Brazil
 
-This repository contains the data and R scripts used in the article:
+This repository contains the data publicly available and R scripts used in the article:
 
 **ASSESSING BASIS RISK IN MARGIN INSURANCE FOR BEEF CATTLE FARMING IN BRAZIL**
 
