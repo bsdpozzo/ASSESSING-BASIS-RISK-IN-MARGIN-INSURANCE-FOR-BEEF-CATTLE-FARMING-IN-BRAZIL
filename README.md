@@ -4,17 +4,15 @@ This repository contains the data and R scripts used in the article:
 
 **ASSESSING BASIS RISK IN MARGIN INSURANCE FOR BEEF CATTLE FARMING IN BRAZIL**
 
-## Author
-Beatriz Salandin Dal Pozzo
-
 ## Overview
-This repository aims to ensure transparency and reproducibility of the analyses conducted in the study, which evaluates basis risk in margin insurance for beef cattle farming in Brazil. The analysis relies on spot and futures price data, deflated series, and stochastic simulations at both federal and state levels.
+This repository aims to ensure transparency and reproducibility of the analyses conducted in the study, which evaluates basis risk in gross margin insurance for beef cattle farming in Brazil. The analysis relies on publicly available spot and futures price data, deflated series, and stochastic simulations conducted at both federal and state levels.
 
 ## Repository Structure
 
 - `data/`  
-  Contains the datasets used in the analysis:
-  - `data_prices.xlsx`: Spot market price data from CEPEA, used to represent physical cattle and corn prices, futures price data for live cattle and corn obtained from the Brazilian stock exchange (B3), collected via Investing.com, and Federal-level feeder cattle price data obtained from Agrolink.
+  Contains only publicly available datasets, which are disclosed in this repository because they are obtained from open-access sources:
+  - `data_prices.xlsx`: includes (i) futures price data for live cattle and corn obtained from the Brazilian stock exchange (B3) and collected via Investing.com; and (ii) federal-level feeder cattle price data obtained from Agrolink.
+Spot market price data from CEPEA are not redistributed due to data-use restrictions and are therefore not included in this repository. These data can be requested directly from CEPEA by interested researchers.
   - `IGP-DI_en.xlsx`: IGP-DI price index used to deflate all nominal price series.
 
 - `scripts/`  
@@ -26,10 +24,10 @@ This repository aims to ensure transparency and reproducibility of the analyses 
 
 ## Data Sources
 The price series used in this study originate from the following sources:
-- **CEPEA (Center for Advanced Studies on Applied Economics)**: Spot market prices for cattle in Brazil.
-- **B3 (Brazilian Stock Exchange)**: Futures prices for live cattle, collected via Investing.com.
-- **Agrolink**: Federal-level feeder cattle (boi magro) price series.
-- **FGV (Getulio Vargas Foundation)**: IGP-DI price index used for deflation.
+- **CEPEA (Center for Advanced Studies on Applied Economics)**: Spot market prices for cattle in Brazil (restricted-access data, not redistributed).
+- **B3 (Brazilian Stock Exchange)**: Futures prices for live cattle, collected via Investing.com (publicly available).
+- **Agrolink**: Federal-level feeder cattle (boi magro) price series (publicly available).
+- **FGV (Getulio Vargas Foundation)**: IGP-DI price index used for deflation (publicly available).
 
 ## Methodological Notes
 - All price series are deflated using the IGP-DI index prior to the simulations.
@@ -43,10 +41,11 @@ To reproduce the results, run the scripts:
 - `basis_risk.R` — federal-level and state-level price-based simulations  
   
 
-Ensure that all required R packages are installed and that the data files are correctly placed in the `data/` directory.
+Ensure that all required R packages are installed and that the publicly available data files are correctly placed in the data/ directory.
 
 ## Data Availability
-The data provided in this repository are intended for academic research purposes only. Any restrictions related to redistribution or commercial use should comply with the terms established by the original data providers.
+All datasets shared in this repository are publicly available and free of redistribution restrictions.
+Any restricted-access data used in the analysis are clearly identified and must be requested directly from the original data provider, in accordance with their data-use policies.
 
 ## Contact
 For questions or suggestions regarding this repository, please contact the author.
